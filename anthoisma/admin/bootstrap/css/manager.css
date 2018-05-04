@@ -1,0 +1,169 @@
+.menu {
+      background: linear-gradient(to bottom left, #DFAE0C, white); /* Standard syntax */ ; 
+      font-family: 'Lucida Console', Monaco, monospace;
+        text-shadow: 2px 2px 2px black;
+}
+
+.lien {
+  font-family: Vollkorn, sans-serif !important;  
+  font-weight: bold ;
+  color : white !important; 
+
+}
+
+
+.bandeau {
+  background: linear-gradient(to top left, #046380, white); /* Standard syntax */ ; 
+  font-family: Verdana, Geneva, sans-serif;  /*font-weight: bold*/;
+  font-size: 20px;
+  text-align : center;
+  padding-top: 30px;
+  padding-bottom:30px;
+  color : #046380;
+    text-shadow: 2px 2px 2px white;
+
+}
+
+.search {
+  text-align : center;
+  padding-top: 40px;
+  padding-bottom:60px;
+  background-color :  #046380;
+
+}
+
+.entetetable {
+  background-color : #DFAE0C;
+  font-weight : bold;
+}
+
+
+.pieddepage {
+  background-color : #4D4C4A;
+  text-align : center;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size : 12px; 
+}
+
+.contenu {
+background-color :  #046380;
+
+
+}
+
+.addform {
+  padding-left : 30px;
+  padding-right: 30px;
+  padding-bottom:30px;
+  padding-top:30px;
+  background-color : #046380; 
+  color : white;
+  padding-right : 30%;
+  padding-left: 30%
+
+}
+
+.addform #submit {
+  margin-left : 0px;
+}
+
+tr {
+  background-color : white;
+}
+
+p1 {
+  font-family: Verdana, Geneva, sans-serif;  
+  font-weight: bold;
+  font-size : 15px; 
+  text-shadow: 4px 4px 4px #D83F3D;
+  color: white;
+
+   
+
+}
+
+.imgcongo {
+    overflow:hidden;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+}
+
+
+
+h1 {
+  text-align: center;
+  color :white;
+  text-shadow: 4px 4px 4px #D83F3D;
+}
+.link--kukuri {
+  font-weight: 900;
+  overflow: hidden;
+  line-height: 0.75;
+  color: #b2b0a9;
+}
+
+.link--kukuri:hover {
+  color: #09277e;
+}
+
+.link--kukuri::after {
+  content: '';
+  position: absolute;gi
+  height: 16px;
+  width: 100%;
+  top: 50%;
+  margin-top: -8px;
+  right: 0;
+  background: #F9F9F9;
+  transform: translate3d(-100%,0,0);
+  transition: transform 0.4s;
+  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--kukuri:hover::after {
+  transform: translate3d(100%,0,0);
+}
+
+.link--kukuri::before {
+  content: attr(data-letters);
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+  color: #8383bf;
+  white-space: nowrap;
+  width: 0%;
+  transition: width 0.4s 0.3s;
+}
+
+.link--kukuri:hover::before {
+  width: 100%;
+}
+.link {
+  outline: none;
+  text-decoration: none;
+  position: relative;
+  font-size: 24px;
+  line-height: 1;
+  color: #09277e;
+  display: inline-block;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Vollkorn%3A400);
+
+
+.export {
+  color : white;
+}
+
+.export {
+  margin-left : 70%;
+
+}
+.total {
+  color :white;
+  text-shadow: 4px 4px 4px #D83F3D;
+  font-size: 14px;
+}

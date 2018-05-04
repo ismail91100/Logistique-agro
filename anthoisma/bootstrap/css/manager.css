@@ -1,0 +1,79 @@
+.menu {
+  background: linear-gradient(to bottom left, #DFAE0C, white); /* Standard syntax */ ; 
+  font-family: 'Lucida Console', Monaco, monospace;
+  text-shadow: 2px 2px 2px black;
+}
+
+.lien {
+  color : white !important; 
+}
+
+.bandeau {
+  background: linear-gradient(to top left, #046380, white); /* Standard syntax */ ; 
+  font-family: Verdana, Geneva, sans-serif;  /*font-weight: bold*/;
+  font-size: 20px;
+  text-align : center;
+  padding-top: 30px;
+  padding-bottom:30px;
+  color : #046380;
+  text-shadow: 2px 2px 2px white;
+
+}
+
+.search {
+  text-align : center;
+  padding-top: 40px;
+  padding-bottom:60px;
+  background-color :  #046380;
+
+}
+
+.entetetable {
+  background-color : #DFAE0C;
+  font-weight : bold;
+}
+
+
+.pieddepage {
+  background-color : #4D4C4A;
+  text-align : center;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size : 12px; 
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:40px;
+  width:100%;
+}
+
+
+.contenu {
+  background-color :  #046380;
+}
+
+
+.connexion {
+  text-align : center;
+  height: 100%;
+  width : 100%;
+  background-color : #046380;
+  margin-top : 12%;
+  color :white;
+  text-shadow: 4px 4px 4px #D83F3D;
+}
+body {
+    background-color : #046380;
+
+}
+h1 {
+  text-align: center;
+  color :white;
+  text-shadow: 4px 4px 4px #D83F3D;
+  font-size: 46px;
+}
+.btn {
+  text-align : inline-block;
+  text-align: right;
+}
